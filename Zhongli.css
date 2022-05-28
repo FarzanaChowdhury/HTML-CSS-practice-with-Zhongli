@@ -1,0 +1,54 @@
+#heading{
+    text-align: center;
+    background-color: rgba(197, 162, 35);
+    padding : 30px;
+   /* margin-right : 10px; */
+    color : rgb(101, 82, 14);
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+h4{
+    color :  rgb(73, 60, 11);
+    margin : 0px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(Images/Liyue.jpg);
+}
+
+div{
+    margin : 60px;
+    background-color: rgba(232, 208, 119);
+}
+
+.Title{
+    color :  rgb(73, 60, 11);
+    background-color: rgb(197, 162, 35);
+    font-size: 30px;
+    padding : 2px 30px;
+}
+#right{
+    width : 30%;
+    padding: 0px;
+    margin: 0px 15px;
+    float : right;
+    font-style: italic;
+    color: rgb(73, 60, 11);
+    background-color: rgb(246, 216, 109);
+}
+
+#left{
+    width : 30%;
+    margin : 0px 15px;
+    float : left;
+    font-style: italic;
+    color: rgb(109, 93, 35);
+    background-color: rgb(245, 211, 90);
+}
+p{
+    color : rgb(129, 106, 23);
+    margin : 30px 30px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}

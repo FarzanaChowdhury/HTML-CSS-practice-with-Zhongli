@@ -1,0 +1,9 @@
+#heading:hover{
+    /* color: rgb(245, 232, 147); 
+     text-shadow: 0 0 8px rgb(129, 106, 23); */
+     text-shadow: 0 0 8px rgb(245, 232, 147);
+ }
+ .Title:hover{
+     color :rgb(245, 232, 147);
+     background-color: rgb(101, 82, 14);
+ }

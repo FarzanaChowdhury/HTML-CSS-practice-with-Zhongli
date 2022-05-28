@@ -1,0 +1,30 @@
+#zhongli1{
+    height : 330px;
+    width : 300px; 
+    padding-left : 15px;
+}
+#zhongli2{
+height : 200px;
+width : 200px;
+}
+.rightPic{
+    float : right;
+    
+}
+.centerPic{
+    text-align: center;
+    margin-left : auto;
+    margin-right : auto;
+}
+figcaption{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(101, 82, 14);
+}
+/*How to center an image*/
+.Pic{
+    width : 580px;
+    height : 350px;
+   
+    
+}
