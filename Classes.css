@@ -20,25 +20,6 @@ body{
     margin : 60px;
     background-color: rgba(232, 208, 119);
 }
-/*division*/
-.rightSect{
-    float:left; 
-    margin-left: 10px;
-    width : 25%;
-    border :rgb(73, 60, 11);
-    border-style: solid;
-    /*display : inline-block;*/
-}
-.leftSect{
-    float : left;
-    width : 70%;
-}
-.Title{
-    color :  rgb(73, 60, 11);
-    background-color: rgb(197, 162, 35);
-    font-size: 30px;
-    padding : 2px 30px;
-}
 #right{
     width : 30%;
     padding: 15px;

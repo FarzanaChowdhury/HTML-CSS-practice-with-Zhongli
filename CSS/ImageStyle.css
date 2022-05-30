@@ -3,6 +3,8 @@
    /* height : 330px;
     width : 300px; */   
     width : 100%;
+    border-style: solid;
+    padding-top: 2px;
 }
 #zhongli2{
 height : 200px;
@@ -12,7 +14,6 @@ width : 200px;
 #introPic{
     width : 90%;
     float : center;
-    border-style: solid;
     margin : 0 auto;
 }
 
