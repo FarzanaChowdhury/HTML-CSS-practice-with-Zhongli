@@ -3,7 +3,6 @@
    /* height : 330px;
     width : 300px; */   
     width : 100%;
-    border-style: solid;
     padding-top: 2px;
 }
 #zhongli2{
@@ -12,27 +11,12 @@ width : 200px;
 }
 /*introPic is the name of the <figure> where zhongli1 is in, which is inside a <div>. It takes the 100% width of the <div>*/
 #introPic{
-    width : 90%;
+    width : 100%;
     float : center;
     margin : 0 auto;
 }
 
-/*The <figure> that will float to the right of the writings*/
-.rightPic{
-    float : right;
-    
-}
 
-.centerPic{
-    text-align: center;
-    margin-left : auto;
-    margin-right : auto;
-}
-figcaption{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(101, 82, 14);
-}
 /*How to center an image*/
 .Pic{
     width : 580px;
