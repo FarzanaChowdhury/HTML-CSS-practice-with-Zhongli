@@ -63,3 +63,7 @@ body{
     margin : 0 auto;
     text-align: center;
 }
+#contents{
+    width : 30%;
+    margin-left : 15px;
+}

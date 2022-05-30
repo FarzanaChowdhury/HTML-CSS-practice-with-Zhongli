@@ -7,3 +7,7 @@
      color :rgb(245, 232, 147);
      background-color: rgb(101, 82, 14);
  }
+ a:hover{
+    color :rgb(241, 200, 118);
+    background-color:rgb(163, 126, 53);
+ }
