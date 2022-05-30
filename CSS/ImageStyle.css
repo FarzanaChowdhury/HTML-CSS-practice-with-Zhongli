@@ -1,3 +1,4 @@
+/*The <img> that is inside the figure <introPic>*/
 #zhongli1{
     height : 330px;
     width : 300px; 
@@ -7,10 +8,17 @@
 height : 200px;
 width : 200px;
 }
+/*introPic is the name of the figure where zhongli1 is in, which is inside a <div>. It takes the 100% width of the <div>*/
+#introPic{
+    width : 100%;
+}
+
+/*The <figure> that will float to the right of the writings*/
 .rightPic{
     float : right;
     
 }
+
 .centerPic{
     text-align: center;
     margin-left : auto;

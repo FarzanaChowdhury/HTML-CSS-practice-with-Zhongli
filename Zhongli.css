@@ -16,11 +16,19 @@ body{
     background-image: url(Images/Liyue.jpg);
 }
 
-div{
+#main{
     margin : 60px;
     background-color: rgba(232, 208, 119);
 }
 
+.rightSect{
+    float:left;
+    width : 10%;
+}
+.leftSect{
+    float : left;
+    width : 70%;
+}
 .Title{
     color :  rgb(73, 60, 11);
     background-color: rgb(197, 162, 35);
@@ -29,7 +37,7 @@ div{
 }
 #right{
     width : 30%;
-    padding: 0px;
+    padding: 15px;
     margin: 0px 15px;
     float : right;
     font-style: italic;
@@ -39,15 +47,15 @@ div{
 
 #left{
     width : 30%;
+    padding: 15px;
     margin : 0px 15px;
     float : left;
     font-style: italic;
     color: rgb(109, 93, 35);
     background-color: rgb(245, 211, 90);
 }
-p{
+body{
     color : rgb(129, 106, 23);
-    margin : 30px 30px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
