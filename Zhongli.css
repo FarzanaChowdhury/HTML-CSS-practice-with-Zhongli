@@ -20,10 +20,14 @@ body{
     margin : 60px;
     background-color: rgba(232, 208, 119);
 }
-
+/*division*/
 .rightSect{
-    float:left;
-    width : 10%;
+    float:left; 
+    margin-left: 10px;
+    width : 25%;
+    border :rgb(73, 60, 11);
+    border-style: solid;
+    /*display : inline-block;*/
 }
 .leftSect{
     float : left;
@@ -59,4 +63,7 @@ body{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
+}
+#click{
+    float : right;
 }
