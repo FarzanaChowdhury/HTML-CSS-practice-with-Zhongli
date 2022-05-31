@@ -7,6 +7,24 @@ body{
 p{
     margin : 0px 30px;
 }
+.heading{
+    text-align: center;
+    /*background-color: rgba(197, 162, 35);*/
+    background-image: url(Images/morax.jpg);
+    text-shadow: 1px 1px 8px rgb(245, 232, 147);
+    padding : 30px;
+    margin : 0 auto; 
+    color : rgb(43, 28, 10);
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.main{
+    margin : 0px 60px;
+    background-color: rgba(232, 208, 119);
+    border-color: red;
+    border-radius: 5px;
+    border-style: solid;
+}
 /*division*/
 .rightSect{
     float:left; 
@@ -105,4 +123,16 @@ padding : 8px;
         text-decoration: none;
         display: block;
     padding : 8px;
+    color :rgb(241, 200, 118);
+    background-color:rgb(129, 100, 43);
     }
+.fanart{
+width : 20%;
+height : 20%;
+    float : left;
+}
+.FA{
+    width : 100%;
+    float : center;
+    margin : 0 auto;
+}

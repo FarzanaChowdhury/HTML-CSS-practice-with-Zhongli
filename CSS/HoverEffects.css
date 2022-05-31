@@ -1,8 +1,4 @@
-#heading:hover{
-    /* color: rgb(245, 232, 147); 
-     text-shadow: 0 0 8px rgb(129, 106, 23); */
-     text-shadow: 0 0 8px rgb(245, 232, 147);
- }
+
  .Title:hover{
      color :rgb(245, 232, 147);
      background-color: rgb(101, 82, 14);
@@ -21,8 +17,7 @@
     background-color:rgb(202, 157, 67);
     text-decoration: none;
  }
-.active{
-    color :rgb(241, 200, 118);
-    background-color:rgb(129, 100, 43);
+.active:hover{
     text-decoration: none;
+    color :rgb(241, 200, 118);
  }
