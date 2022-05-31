@@ -5,7 +5,7 @@ body{
     text-align: justify;
 }
 p{
-    margin : 0px 15px;
+    margin : 0px 30px;
 }
 /*division*/
 .rightSect{
@@ -81,3 +81,28 @@ aside{
     color: rgb(109, 93, 35);
     background-color: rgb(245, 211, 90);
 }
+
+/*overflow:hidden prevents li elements from going outside of the list. The <p> started right next to the <li> elements when this overflow:hidden was not used*/
+ul{
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;  
+    background-color: rgba(193, 149, 62, 0.625);
+    display : block;
+}
+li {
+    float: left;
+    display: block;
+padding : 8px;
+}
+.nav{
+    text-decoration: none;
+    display: block;
+padding : 8px;
+    }
+    .active{
+        text-decoration: none;
+        display: block;
+    padding : 8px;
+    }

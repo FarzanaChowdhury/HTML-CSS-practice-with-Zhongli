@@ -10,8 +10,19 @@
  .block:hover{
     color :rgb(241, 200, 118);
     background-color:rgb(129, 100, 43);
+    text-decoration: none;
  }
  a:hover{
      color : rgb(166, 129, 54);
      text-decoration: underline;
+ }
+ .nav:hover{
+    color :rgb(106, 85, 43);
+    background-color:rgb(202, 157, 67);
+    text-decoration: none;
+ }
+.active{
+    color :rgb(241, 200, 118);
+    background-color:rgb(129, 100, 43);
+    text-decoration: none;
  }

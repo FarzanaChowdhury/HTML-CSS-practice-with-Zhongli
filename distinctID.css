@@ -1,9 +1,11 @@
 #heading{
     text-align: center;
-    background-color: rgba(197, 162, 35);
+    /*background-color: rgba(197, 162, 35);*/
+    background-image: url(Images/Rex.jpg);
+    text-shadow: 0 0 8px rgb(245, 232, 147);
     padding : 30px;
-   /* margin-right : 10px; */
-    color : rgb(101, 82, 14);
+     margin : 0 auto; 
+    color : rgb(66, 43, 14);
     font-family : Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
 }
@@ -17,7 +19,7 @@ body{
 }
 
 #main{
-    margin : 60px;
+    margin : 0px 60px;
     background-color: rgba(232, 208, 119);
 }
 #right{
@@ -67,3 +69,9 @@ body{
     width : 30%;
     margin-left : 15px;
 }
+#appearance{
+    float : left;
+    width : 20%;
+    margin : 0 5px;
+}
+
