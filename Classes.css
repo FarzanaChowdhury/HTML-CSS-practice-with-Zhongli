@@ -44,12 +44,13 @@ figcaption{
     color: rgb(101, 82, 14);
 }
 td{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 243, 209);
     border-right : none;
     border-left : none;
     border-collapse : collapse;
     color: rgb(94, 85, 18);
     margin : 0 auto;
+ 
 
 }
 table{
@@ -59,12 +60,24 @@ table{
 }
 caption{
     float: center;
-    color:rgb(94, 85, 18);
-    background-color : rgba(188, 146, 60);
+    color:rgb(216, 175, 63);
+    background-color : rgb(102, 78, 30);
   
 }
-a{
+.block{
     text-decoration: none;
     color : rgb(94, 85, 18);
-    width : 100%;
+    display : block;
+    font-size: large;
+}
+a{
+    color : rgb(104, 81, 35);
+}
+aside{
+    margin : 5px;
+    padding: 15px;
+    margin : 0px 15px;
+    font-style: italic;
+    color: rgb(109, 93, 35);
+    background-color: rgb(245, 211, 90);
 }
