@@ -25,7 +25,13 @@ p{
     border-color: red;
     border-radius: 5px;
     border-style: solid;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
+}
+marquee{
+    color: #e69c43;
+    background-color: #422301;
+    top : 0;
+    position : sticky;
 }
 /*division*/
 .rightSect{
@@ -108,8 +114,10 @@ ul{
     margin : 0;
     padding : 0;
     overflow : hidden;  
-    background-color: rgba(193, 149, 62, 0.625);
+    background-color: rgba(193, 149, 62);
     display : block;
+    top : 20px;
+    position: sticky;
 }
 li {
     float: left;
@@ -138,27 +146,28 @@ padding : 8px;
     position: relative;
     border-color: blue;
     border-style: solid;
-    width : 30%;
+    width : 90%;
 }
 
 /*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
 */
 .overlay{
     position:absolute;
-    border-style: solid;
-    border-color: rgb(135, 224, 18);
     width : 100%;
-    bottom: 100%;
+    bottom: 0;
     left: 0;
     right: 0;
     height : 0;
     background-color: #70757762;
     transition: 0.5s;
 }
+/*
 .art:hover .overlay{
     height : 30%;
-    transform:translate(0px,100px);
+  /*  transform:translate(0px,100px); */
+  /*
 }
+*/
 .text{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -166,8 +175,8 @@ padding : 8px;
     color: white;
     position: absolute;
     top: 50%;
-  left: 50%;
-  text-align: center;
+    left: 50%;
+    text-align: center;
 }
 #img{
     display : block;
@@ -180,4 +189,13 @@ footer{
     text-align: left;
     padding : 30px;
     margin : 0px 0px;
+}
+.contact{
+    height : 1em;
+}
+/*If you don't use position:relative here, the text will cover the whole parent <div>*/
+.container{
+    width : 20%;
+    display : inline-block;
+    position : relative;
 }

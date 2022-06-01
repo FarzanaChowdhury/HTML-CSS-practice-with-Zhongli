@@ -28,19 +28,17 @@ width : 200px;
     width : 700px; 
     height : 494px;
     margin-left : 15px;
-    border-style: double;
-    border-color: brown;
-    border-radius: 5px;
 }
 
-#FA1{
-    width:20%;
-    float : left;
+/*<div> did not wrap the picture when float:left; was used. The width of <div> was set to 20% at that time*/
+.fanart{
+    width:100%;
+   /*float : left;*/
+    display : inline-block;
+    top: 20px;
+    margin : 5px;
 }
-#FA2{
-    width:20%;
-    float : left;
-}
+
 #treat{
     width:40%;
     margin : 0 auto;
