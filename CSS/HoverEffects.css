@@ -21,3 +21,10 @@
     text-decoration: none;
     color :rgb(241, 200, 118);
  }
+ aside:hover{
+box-shadow: 5px 5px 5px rgb(122, 68, 10);
+
+ }
+ #Archons:hover{
+    box-shadow: 5px 5px 5px 5px rgb(122, 68, 10);
+ }

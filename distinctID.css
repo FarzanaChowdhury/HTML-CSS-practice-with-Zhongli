@@ -32,8 +32,8 @@ body{
 #click{
     float : right;
     margin-top: 150px;
-    margin-right: 60px;
-    padding : 5px 5px;
+    margin-right: 50px;
+    padding : 8px 8px;
     background-color: rgba(233, 205, 84, 0.544);
 }
 #Z{
@@ -61,4 +61,9 @@ body{
     width : 20%;
     margin : 0 5px;
 }
-
+#fanart{
+    border-style: solid;
+}
+#clickable{
+    font-size: .75em;
+}

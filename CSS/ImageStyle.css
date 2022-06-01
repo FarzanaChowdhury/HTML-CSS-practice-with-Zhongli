@@ -1,4 +1,4 @@
-/*The <img> that is inside the figure <introPic>*/
+/*The <img> that is inside the figure <introPic>. If I don't set the width to 100%, it will overflow the figure*/
 #zhongli1{
    /* height : 330px;
     width : 300px; */   
@@ -27,5 +27,21 @@ width : 200px;
 #Archons{
     width : 700px; 
     height : 494px;
-    margin-left : 30px;
+    margin-left : 15px;
+    border-style: double;
+    border-color: brown;
+    border-radius: 5px;
+}
+
+#FA1{
+    width:20%;
+    float : left;
+}
+#FA2{
+    width:20%;
+    float : left;
+}
+#treat{
+    width:40%;
+    margin : 0 auto;
 }

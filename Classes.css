@@ -3,6 +3,7 @@ body{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
+    padding: 0px 0px;
 }
 p{
     margin : 0px 30px;
@@ -24,6 +25,7 @@ p{
     border-color: red;
     border-radius: 5px;
     border-style: solid;
+    padding-bottom: 40px;
 }
 /*division*/
 .rightSect{
@@ -126,13 +128,56 @@ padding : 8px;
     color :rgb(241, 200, 118);
     background-color:rgb(129, 100, 43);
     }
-.fanart{
-width : 20%;
-height : 20%;
-    float : left;
-}
+    
 .FA{
-    width : 100%;
-    float : center;
+    width : 20%;
+    float : left;
     margin : 0 auto;
+}
+.art{
+    position: relative;
+    border-color: blue;
+    border-style: solid;
+    width : 30%;
+}
+
+/*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
+*/
+.overlay{
+    position:absolute;
+    border-style: solid;
+    border-color: rgb(135, 224, 18);
+    width : 100%;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height : 0;
+    background-color: #70757762;
+    transition: 0.5s;
+}
+.art:hover .overlay{
+    height : 30%;
+    transform:translate(0px,100px);
+}
+.text{
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#img{
+    display : block;
+    width : 100%;
+    height : auto;
+}
+footer{
+    background-color:rgb(17, 11, 2);
+    color :rgb(173, 162, 143);
+    text-align: left;
+    padding : 30px;
+    margin : 0px 0px;
 }
