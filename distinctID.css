@@ -61,9 +61,7 @@ body{
     width : 20%;
     margin : 0 5px;
 }
-#fanart{
-    border-style: solid;
-}
+
 #clickable{
     font-size: .75em;
 }
