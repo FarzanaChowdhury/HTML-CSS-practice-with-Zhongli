@@ -30,13 +30,17 @@ width : 200px;
     margin-left : 15px;
 }
 
-/*<div> did not wrap the picture when float:left; was used. The width of <div> was set to 20% at that time*/
+/*<div> did not wrap the picture when float:left; was used. The width of <div> was set to 20% at that time
+Same thing happened when position was set to absolute*/
 .fanart{
     width:100%;
    /*float : left;*/
+    max-height : fit-content;
     display : inline-block;
-    top: 20px;
-    margin : 5px;
+    top: 4px;
+    margin : 0;
+    padding : 0;
+    position: relative;
 }
 
 #treat{

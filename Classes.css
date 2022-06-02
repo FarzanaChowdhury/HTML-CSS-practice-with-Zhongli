@@ -4,6 +4,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     padding: 0px 0px;
+    margin : 0;
 }
 p{
     margin : 0px 30px;
@@ -21,11 +22,10 @@ p{
 }
 .main{
     margin : 0px 60px;
-    background-color: rgba(232, 208, 119);
-    border-color: red;
-    border-radius: 5px;
-    border-style: solid;
-    /*padding-bottom: 40px;*/
+    background-color: rgba(201, 158, 90);
+    /*padding-bottom: 40px;    rgba(232, 208, 119);*/
+    height : 100%;
+
 }
 marquee{
     color: #e69c43;
@@ -114,7 +114,7 @@ ul{
     margin : 0;
     padding : 0;
     overflow : hidden;  
-    background-color: rgba(193, 149, 62);
+    background-color: rgb(205, 180, 55);
     display : block;
     top : 20px;
     position: sticky;
@@ -137,18 +137,26 @@ padding : 8px;
     background-color:rgb(129, 100, 43);
     }
     
-.FA{
-    width : 20%;
-    float : left;
-    margin : 0 auto;
-}
+
 .art{
     position: relative;
-    border-color: blue;
+    border-color: rgb(202, 247, 20);
     border-style: solid;
-    width : 90%;
+    width : 95%;
+    padding : 30px 30px;
 }
-
+/*If you don't use position:relative here, the text will cover the whole parent <div>*/
+.container{
+    width : 20%;
+   
+    display : inline-block;
+    position : relative;
+    top : 0;
+    right : 0;
+    border-style: solid;
+    padding: 0;
+    margin: 8px;
+}
 /*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
 */
 .overlay{
@@ -158,8 +166,9 @@ padding : 8px;
     left: 0;
     right: 0;
     height : 0;
-    background-color: #70757762;
+    background-color: #362a078a;
     transition: 0.5s;
+    overflow: hidden;
 }
 /*
 .art:hover .overlay{
@@ -177,6 +186,7 @@ padding : 8px;
     top: 50%;
     left: 50%;
     text-align: center;
+    
 }
 #img{
     display : block;
@@ -188,14 +198,9 @@ footer{
     color :rgb(173, 162, 143);
     text-align: left;
     padding : 30px;
-    margin : 0px 0px;
+    margin : 0;
+
 }
 .contact{
     height : 1em;
-}
-/*If you don't use position:relative here, the text will cover the whole parent <div>*/
-.container{
-    width : 20%;
-    display : inline-block;
-    position : relative;
 }
