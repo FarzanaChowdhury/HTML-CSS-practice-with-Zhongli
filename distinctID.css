@@ -53,8 +53,9 @@ body{
     text-align: center;
 }
 #contents{
-    width : 30%;
+    width : 35%;
     margin-left : 15px;
+    margin : 20px auto;
 }
 #appearance{
     float : left;

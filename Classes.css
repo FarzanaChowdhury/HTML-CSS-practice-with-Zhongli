@@ -32,6 +32,13 @@ marquee{
     background-color: #422301;
     top : 0;
     position : sticky;
+    margin : 0;
+    padding: 0;
+}
+
+iframe{
+    margin : auto;
+    display : block;
 }
 /*division*/
 .rightSect{
@@ -79,10 +86,12 @@ td{
  
 
 }
+
+/*a table cannot be centered if the width is set to 100% (full-width).*/
 table{
-    width : 100%;
     background-color : rgba(193, 149, 62, 0.625);
     border-collapse : collapse;
+    width : 100%;
 }
 caption{
     float: center;
@@ -118,16 +127,18 @@ ul{
     display : block;
     top : 20px;
     position: sticky;
+    margin-bottom : 3px;
 }
 li {
     float: left;
     display: block;
-padding : 8px;
+    padding : 8px;
 }
 .nav{
     text-decoration: none;
     display: block;
-padding : 8px;
+    padding : 8px;
+    color: #ecb36c;
     }
     .active{
         text-decoration: none;
@@ -142,17 +153,21 @@ padding : 8px;
     position: relative;
     width : 95%;
     padding : 30px 30px;
+    display:block;
+
 }
 /*If you don't use position:relative here, the text will cover the whole parent <div>*/
 .container{
     width : 20%;
-   
+    height : 100%;
+    vertical-align: top;  /*to start from the top of the container*/
     display : inline-block;
     position : relative;
     top : 0;
-    right : 0;
-    padding: 0;
+    left : 0;
+    padding: 0px;
     margin: 8px;
+    border-style: solid;
 }
 /*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
 */

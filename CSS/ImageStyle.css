@@ -34,12 +34,12 @@ width : 200px;
 Same thing happened when position was set to absolute*/
 .fanart{
     width:100%;
+    height :auto;
    /*float : left;*/
-    max-height : fit-content;
     display : inline-block;
     top: 4px;
     margin : 0;
-    padding : 0;
+    padding : 0px;
     position: relative;
 }
 
