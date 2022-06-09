@@ -34,6 +34,7 @@ marquee{
     position : sticky;
     margin : 0;
     padding: 0;
+    z-index: 1;
 }
 
 iframe{
@@ -41,23 +42,26 @@ iframe{
     display : block;
 }
 /*division*/
-.rightSect{
-    float:left; 
+.rightSect{ 
     margin-left: 50px;
     width : 25%;
     border :rgb(73, 60, 11);
     border-style: solid;
-    /*display : inline-block;*/
+    display: inline-block; /**/
+  
 }
 .leftSect{
     float : left;
     width : 67%;
 }
+
 .Title{
     color :  rgb(73, 60, 11);
     background-color: rgb(197, 162, 35);
     font-size: 30px;
     padding : 2px 30px;
+    clear: both;   /*so that it won't be influenced by the floating other divs, but will move down below them.*/
+  
 }
 
 .rightPic{
@@ -92,6 +96,7 @@ table{
     background-color : rgba(193, 149, 62, 0.625);
     border-collapse : collapse;
     width : 100%;
+
 }
 caption{
     float: center;
@@ -123,11 +128,12 @@ ul{
     margin : 0;
     padding : 0;
     overflow : hidden;  
-    background-color: rgb(137, 93, 36);
+    background-color: rgb(98, 66, 25);
     display : block;
     top : 20px;
     position: sticky;
     margin-bottom : 3px;
+    z-index: 1;
 }
 li {
     float: left;
@@ -145,7 +151,7 @@ li {
         display: block;
     padding : 8px;
     color :rgb(241, 200, 118);
-    background-color:rgb(129, 100, 43);
+    background-color:rgb(50, 37, 10);
     }
     
 
@@ -167,7 +173,6 @@ li {
     left : 0;
     padding: 0px;
     margin: 8px;
-    border-style: solid;
 }
 /*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
 */
@@ -217,7 +222,7 @@ footer{
     color :rgb(173, 162, 143);
     text-align: left;
     padding : 30px;
-    margin : 0;
+    margin :0;
 
 }
 .contact{
