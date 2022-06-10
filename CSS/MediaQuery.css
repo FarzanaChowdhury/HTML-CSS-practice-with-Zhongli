@@ -1,6 +1,6 @@
 @media screen and (max-width: 950px) {
     .main {
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     .leftSect {
@@ -21,9 +21,21 @@
 
     iframe {
         width: 90%;
+        height: auto;
         margin: auto;
     }
 
+     #appearance, #rightPic, #centerPic, #zhongli2, .Pic, #Archons, #clickable, #treat{
+        float : none;
+        width : 98%;
+        height: fit-content;
+        margin : auto;
+    }
+    #left-aside, #right-aside, aside, #click-aside
+{  margin: 0px auto;
+    padding: 2px;
+    float : none;
+    width : 98%;}
     .art-div {
         position: static;
         width: 95%;
