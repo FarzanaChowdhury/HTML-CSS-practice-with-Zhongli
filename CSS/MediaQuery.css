@@ -1,0 +1,44 @@
+@media screen and (max-width: 950px) {
+    .main {
+        margin: 0 20px;
+    }
+
+    .leftSect {
+        float: left;
+        width: 95%;
+    }
+
+    .rightSect {
+        width: 70%;
+        margin: 5px auto;
+        display: table;
+    }
+
+    #contents {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    iframe {
+        width: 90%;
+        margin: auto;
+    }
+
+    .art-div {
+        position: static;
+        width: 95%;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .container {
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
