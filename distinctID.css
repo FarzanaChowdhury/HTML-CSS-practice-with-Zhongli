@@ -1,15 +1,10 @@
-
 h4{
     color :  rgb(73, 60, 11);
     margin : 0px 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body{
-    background-image: url(Images/Liyue.jpg);
-}
 
-
-#right{
+#right-aside{
     width : 30%;
     padding: 15px;
     margin: 0px 15px;
@@ -19,7 +14,7 @@ body{
     background-color: rgb(246, 216, 109);
 }
 
-#left{
+#left-aside{
     width : 30%;
     padding: 15px;
     margin : 0px 15px;
@@ -29,7 +24,7 @@ body{
     background-color: rgb(245, 211, 90);
 }
 
-#click{
+#click-aside{
     float : right;
     margin-top: 150px;
     margin-right: 50px;

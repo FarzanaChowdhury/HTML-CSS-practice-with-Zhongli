@@ -1,0 +1,76 @@
+   .art-div{
+    position: relative;
+    width : 95%;
+    padding : 30px 30px;
+    display:block;
+
+}
+/*If you don't use position:relative here, the text will cover the whole parent <div>*/
+.container{
+    width : 20%;
+    height : 100%;
+    vertical-align: top;  /*to start from the top of the container*/
+    display : inline-block;
+    position : relative;
+    top : 0;
+    left : 0;
+    padding: 0px;
+    margin: 8px;
+
+}
+/*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
+*/
+.overlay{
+    position:absolute;
+    width : 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height : 0;
+    background-color: #362a078a;
+    transition: 0.5s;
+    overflow: hidden;
+
+    display: inline-block;
+
+word-wrap: break-word;
+
+
+}
+/*
+.art-div:hover .overlay{
+    height : 30%;
+  /*  transform:translate(0px,100px); */
+  /*
+}
+*/
+.text{
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    display: inline-block;
+
+    
+}
+#img{
+    display : block;
+    width : 100%;
+    height : auto;
+}
+
+/*<div> did not wrap the picture when float:left; was used. The width of <div> was set to 20% at that time
+Same thing happened when position was set to absolute*/
+.fanart{
+    width:100%;
+    height :auto;
+   /*float : left;*/
+    display : inline-block;
+    top: 4px;
+    margin : 0;
+    padding : 0px;
+    position: relative;
+}
