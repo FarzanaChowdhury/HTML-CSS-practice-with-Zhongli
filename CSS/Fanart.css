@@ -2,7 +2,6 @@
     position: relative;
     width : 95%;
     padding : 30px 30px;
-    display:block;
 
 }
 /*If you don't use position:relative here, the text will cover the whole parent <div>*/
@@ -15,7 +14,7 @@
     top : 0;
     left : 0;
     padding: 0px;
-    margin: 8px;
+    margin: 30px;
 
 }
 /*Here, height : 0, width:100%, so the <div> overlay will go from bottom to top
