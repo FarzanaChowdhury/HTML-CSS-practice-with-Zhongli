@@ -1,6 +1,7 @@
 @media screen and (max-width: 950px) {
     .main {
         margin: 0 10px;
+        overflow: hidden;
     }
 
     .leftSect {
@@ -25,17 +26,29 @@
         margin: auto;
     }
 
-     #appearance, #rightPic, #centerPic, #zhongli2, .Pic, #Archons, #clickable, #treat{
-        float : none;
-        width : 98%;
+    #appearance,
+    #rightPic,
+    #centerPic,
+    #zhongli2,
+    .Pic,
+    #clickable,
+    #treat {
+        float: none;
+        width: 98%;
         height: fit-content;
-        margin : auto;
+        margin: auto;
     }
-    #left-aside, #right-aside, aside, #click-aside
-{  margin: 0px auto;
-    padding: 2px;
-    float : none;
-    width : 98%;}
+
+    #left-aside,
+    #right-aside,
+    aside,
+    #click-aside {
+        margin: 0px auto;
+        padding: 2px;
+        float: none;
+        width: 98%;
+    }
+
     .art-div {
         position: static;
         width: 95%;
@@ -48,6 +61,10 @@
         width: 80%;
         display: block;
         margin: 20px auto;
+    }
+
+    #Archons {
+        margin: 0;
     }
 
     footer {

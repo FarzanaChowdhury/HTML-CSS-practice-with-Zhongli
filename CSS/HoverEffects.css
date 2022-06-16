@@ -1,42 +1,50 @@
- .Title:hover{
-     color :rgb(245, 232, 147);
-     background-color: rgb(101, 82, 14);
+ .Title:hover {
+    color: rgb(245, 232, 147);
+    background-color: rgb(101, 82, 14);
  }
- .block:hover{
-    color :rgb(241, 200, 118);
-    background-color:rgb(129, 100, 43);
+
+ .block:hover {
+    color: rgb(241, 200, 118);
+    background-color: rgb(129, 100, 43);
     text-decoration: none;
  }
- a:hover{
-     color : rgb(166, 129, 54);
-     text-decoration: underline;
+
+ a:hover {
+    color: rgb(166, 129, 54);
+    text-decoration: underline;
  }
- .nav:hover{
-    color :rgb(71, 55, 24);
-    background-color:rgb(202, 157, 67);
+
+ .nav:hover {
+    color: rgb(71, 55, 24);
+    background-color: rgb(202, 157, 67);
     text-decoration: none;
  }
-.active:hover{
+
+ .active:hover {
     text-decoration: none;
-    color :rgb(241, 200, 118);
+    color: rgb(241, 200, 118);
  }
- aside:hover{
-box-shadow: 5px 5px 5px rgb(122, 68, 10);
+
+ aside:hover {
+    box-shadow: 5px 5px 5px rgb(122, 68, 10);
 
  }
-/*Parent element state can only affect a child's element state */
- .container:hover .fanart{
-   box-shadow: 5px 5px 10px 5px rgb(122, 68, 10);
-}
 
-.container:hover .overlay{
-   height : 35%;
-   word-wrap: break-word;
-   
-}
-.credit:hover{
-color: rgb(246, 231, 171);
-}
-#contacts:hover{
-   text-shadow: 3px 3px 3px 3px rgb(254, 244, 227);
-}
+ /*Parent element state can only affect a child's element state */
+ .container:hover .fanart {
+    box-shadow: 5px 5px 10px 5px rgb(122, 68, 10);
+ }
+
+ .container:hover .overlay {
+    height: 35%;
+    word-wrap: break-word;
+
+ }
+
+ .credit:hover {
+    color: rgb(246, 231, 171);
+ }
+
+ #contacts:hover {
+    text-shadow: 3px 3px 3px 3px rgb(254, 244, 227);
+ }
