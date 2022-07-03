@@ -21,7 +21,7 @@
 
 <body>
     <!--div for styling this portion-->
-    <div class="main">
+    <main>
         <h1 class="heading">Zhongli</h1>
 
         <marquee>This website is made only for the purpose of practicing HTML and CSS. Please do not pay much attention
@@ -35,6 +35,7 @@
             </ul>
         </nav>
 
+        <div id="wrapper">
         <div class="leftSect">
             <p>
                 <br><br>
@@ -43,11 +44,13 @@
                 obsession. And Zhongli, aka, <dfn>Morax</dfn>, aka <dfn><abbr title="Geo Archon">Rex
                         Lapis</abbr></dfn>, is my latest 2D crush.
             </p><br><br><br>
-
+            
+<div id="frame">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/4oBpaBEMBIM"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+</div>
 
             <p>
             <table id="contents">
@@ -109,7 +112,7 @@
                     </tr>
                 </table>
         </div>
-
+    </div>
         <section>
             <details open>
                 <summary class="Title" id="Title1">Introduction</summary>
@@ -236,8 +239,7 @@
                     even funnier as to how moraless Morax is in the mortal realm.<br><br> <i>At the end of the journey,
                         he explains to the traveller why he is so broke all the
                         time *Cute &#62w&#60*. Then he was like, "We only spent Fatui money so it wasn't that bad of a
-                        deed" *Sheeesh
-                        XD* </i></p>
+                        deed" :3 </i></p>
 
             </details>
 
@@ -273,23 +275,22 @@
                 <figure class="centerPic"><img src="Images/Treat.png" id="treat">
                     <figcaption>The moment I started feeling 'respectful' towards him</figcaption>
                 </figure>
-                <p>(A plot twist that even I myself was not expecting :) )</p>
+                <p>(A plot twist that even I myself was not expecting :) ) <br><br></p>
 
+        
             </details>
         </section>
-
+        
         <p><br><br><b>BONUS:</b></p>
         <aside id="click-aside">
             In this picture, <br>
             Click on <span id="Z">Zhongli</span> to see some in-game Zhongli moments
             <br> Click on <span id="V">Venti</span> to hear him singing about three archons
             <br> Click on <span id="R">Raiden</span> for a meme
-            <br>
-            <p style="text-align : center">(Using a PC is recommended)</p>
-            <p style="font-size: smaller; text-align: center;">Picture will get cropped in mobile</p>
         </aside>
-        <p id="clickable">
-            <img src="Images/Three archons.jpg" id="Archons" usemap="#archonmap">(Clickable Image)
+        <div id="imageMap">
+            <img src="Images/Three archons.jpg" id="Archons" usemap="#archonmap">
+            <p id="clickable">(Clickable Image)
         </p>
         <map name="archonmap">
             <area shape="circle" coords="258,108,80" title="Zhongli" href="https://youtu.be/Fwi3IoOLOXM"
@@ -318,24 +319,25 @@
 
 
         </map>
+    </div>
 
 
         <p><b><br><br>Finally, the only thing I want to say to the non-player readers is that : If you want to take a
                 tour
                 around Teyvat, just play on your friend's device for 5-10 minutes. No need to create your own
                 account. It's a stupid game. I do not recommend playing this to anyone.<br><br></b></p>
-    </div>
-
+        </main>
+    
 
 </body>
 <footer>
     The author is a panda who does stupid things such as making a website only by simping over a 2D character. <br>
     <del>Do not</del> Contact her at
     <a href="https://www.instagram.com/pandabanu_draws/" target="_blank"><img src="Images/Instagram.png"
-            class="contact"></a>
+            class="contact" id="ins"></a>
     <a href="https://www.linkedin.com/in/farzana-chowdhury-b6a9ba206/" target="_blank"><img src="Images/LinkedIn.png"
-            class="contact"></a>
-    <a href="https://github.com/FarzanaChowdhury" target="_blank"><img src="Images/GitHub.png" class="contact"></a>
+            class="contact" id="square"></a>
+    <a href="https://github.com/FarzanaChowdhury" target="_blank"><img src="Images/GitHub.png" class="contact" id="round"></a>
     <br>
     <p id="picCredit">Title picture credit <a
             href="https://www.deviantart.com/borseii/art/MMD-Genshin-Impact-Exuvia-Seii-889466627"

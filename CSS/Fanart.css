@@ -2,6 +2,10 @@
        position: relative;
        width: 95%;
        padding: 30px 30px;
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: flex-start;
+       align-items: center;
 
    }
 
@@ -11,12 +15,14 @@
        height: 100%;
        vertical-align: top;
        /*to start from the top of the container*/
-       display: inline-block;
+       /* display: inline-block;  */
+       display: flex;
        position: relative;
        top: 0;
        left: 0;
        padding: 0px;
        margin: 30px;
+       order: 3;
 
    }
 
@@ -26,16 +32,19 @@
        position: absolute;
        width: 100%;
        bottom: 0;
-       left: 0;
        right: 0;
        height: 0;
        background-color: #362a078a;
-       transition: 0.5s;
-       overflow: hidden;
 
+       overflow: hidden;
+       transition-duration: 0.5s;
+       transition-delay: 0s;
+       transform: scale(1.1) translate(0, 12%);
        display: inline-block;
 
+
        word-wrap: break-word;
+
 
 
    }
@@ -49,7 +58,6 @@
 */
    .text {
        transform: translate(-50%, -50%);
-       -ms-transform: translate(-50%, -50%);
        color: white;
        position: absolute;
        top: 50%;
@@ -77,4 +85,6 @@ Same thing happened when position was set to absolute*/
        margin: 0;
        padding: 0px;
        position: relative;
+       transition-duration: 0.5s;
+       transition-delay: .05s;
    }

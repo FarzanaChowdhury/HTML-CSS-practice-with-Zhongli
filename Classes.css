@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
-    padding: 0px 0px;
+    padding: 0;
     margin: 0;
     background-image: url(Images/Liyue.jpg);
 }
@@ -25,11 +25,12 @@ p {
     font-size: 40px;
 }
 
-.main {
+main {
     margin: 0px 60px;
     background-color: rgb(214, 176, 61);
     /*padding-bottom: 40px;    rgba(232, 208, 119);*/
     height: 100%;
+    padding: 0;
 
 }
 
@@ -185,7 +186,7 @@ audio {
 
 footer {
     background-color: rgb(17, 11, 2);
-    color: rgb(173, 162, 143);
+    color: #ada28f;
     text-align: left;
     padding: 30px;
     margin: 0;
@@ -195,6 +196,7 @@ footer {
 .contact {
     height: 1em;
 }
+
 
 .credit {
     color: rgb(255, 252, 240);

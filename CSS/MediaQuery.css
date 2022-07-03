@@ -1,7 +1,21 @@
+@media screen and (max-width: 700px) {
+    main {
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+}
 @media screen and (max-width: 950px) {
-    .main {
+    main {
         margin: 0 10px;
         overflow: hidden;
+        padding: 0;
+    }
+
+    /*To show the overview section before the iframe in smaller screens*/
+    #wrapper {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .leftSect {
@@ -20,10 +34,16 @@
         margin: 20px auto;
     }
 
+    #frame {
+        justify-content: center;
+    }
+
     iframe {
-        width: 90%;
-        height: auto;
-        margin: auto;
+        position: relative;
+        transform: scale(1.5);
+        height: 100%;
+        width: auto;
+        margin-bottom: 50px;
     }
 
     #appearance,
@@ -64,6 +84,16 @@
     }
 
     #Archons {
+        margin: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #imageMap {
+        justify-content: center;
+        transform: scale(.9);
+        padding: 0;
         margin: 0;
     }
 

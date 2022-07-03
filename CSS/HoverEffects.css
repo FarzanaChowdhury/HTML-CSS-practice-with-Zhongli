@@ -33,18 +33,32 @@
  /*Parent element state can only affect a child's element state */
  .container:hover .fanart {
     box-shadow: 5px 5px 10px 5px rgb(122, 68, 10);
+    transform: scale(1.1);
+    transition: .2s ease;
  }
 
  .container:hover .overlay {
     height: 35%;
     word-wrap: break-word;
+    transition-delay: .1s;
+
 
  }
+
 
  .credit:hover {
     color: rgb(246, 231, 171);
  }
 
- #contacts:hover {
-    text-shadow: 3px 3px 3px 3px rgb(254, 244, 227);
+ .contact:hover {
+    box-shadow: .5px .5px .75px 1px rgb(246, 227, 193);
+ }
+ #ins:hover{
+   border-radius: 30%;
+ }
+ #square:hover{
+border-radius: 10%;
+ }
+ #round:hover{
+   border-radius: 50%;
  }
