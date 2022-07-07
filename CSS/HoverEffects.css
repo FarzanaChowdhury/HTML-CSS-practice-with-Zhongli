@@ -10,10 +10,14 @@
  }
 
  a:hover {
-    color: rgb(166, 129, 54);
+    color: rgb(126, 95, 32);
     text-decoration: underline;
  }
-
+.topic:hover{
+   color:rgb(216, 175, 63);; 
+   background-color:rgb(102, 78, 30);
+   text-decoration: none;
+}
  .nav:hover {
     color: rgb(71, 55, 24);
     background-color: rgb(202, 157, 67);
